@@ -1,12 +1,12 @@
-from setuptools import setup
+from distutils.core import setup
 
 setup(
-    name='ocr_client',
+    name='jnocr_client',
     version='0.1',
     packages=[''],
-    url='https://github.com/narayananpp/jnocr_client.git',
+    url='https://github.com/narayananpp/jnocr_client',
     license='Apache',
     author='Narayanan PP',
     author_email='pnkrishnan27@gmail.com',
-    description='Python client for jnocr'
+    description='jnocr_client'
 )

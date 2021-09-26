@@ -16,10 +16,8 @@ This is our initial release v 0.1, only English language is supported.
 ## Installation
 
 - Download the repository as a zip file.
-```
 
-```
-- Change the directory to unzip
+- Run
   > Python setup.py install
 
 ## Usage

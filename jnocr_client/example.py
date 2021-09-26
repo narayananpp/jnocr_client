@@ -1,9 +1,9 @@
 import cv2
 
-from OCR_client import upload_image, visualize_boxes
+from jnocr_client.ocr_client import upload_image, visualize_boxes
 import os
 
-path = "samples"
+path = "../samples"
 dir_list = os.listdir(path)
 print("Files in '", path, "' :")
 print(dir_list)
